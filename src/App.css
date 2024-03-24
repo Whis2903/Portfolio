@@ -286,6 +286,35 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner img {
   animation: updown 3s linear infinite;
 }
+
+.button-container {
+  display: flex;
+  align-items: center; /* Align items vertically center */
+}
+
+.button-container button {
+  margin-right: 30px; /* Add space between buttons */
+}
+
+.explore-button {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid transparent;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease; /* Adding transition for background, border, and text color */
+  text-decoration: none; /* Remove default underline for anchor tags */
+  outline: none; /* Remove default focus outline */
+}
+
+.explore-button:hover {
+  background-color: #fff;
+  color: #000; /* Change text color to black on hover */
+  border-color: #007bff;
+}
+
+
 @keyframes updown {
     0% {
         transform: translateY(-20px);
