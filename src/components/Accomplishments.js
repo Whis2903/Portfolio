@@ -35,15 +35,16 @@ export const Accomplishments = () => {
 };
 
 const AccomplishmentCard = ({ imgUrl }) => {
-  return (
-    <div className="col-md-4">
-      <div className="card mb-4 bg-dark text-white rounded">
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          <div className="card-img-top" style={{ backgroundColor: '#000', borderTopLeftRadius: '15px', borderTopRightRadius: '15px', overflow: 'hidden' }}>
-            <img src={imgUrl} alt="Accomplishment" style={{ width: '100%' }} />
-          </div>
-        </a>
+    return (
+      <div className="col-md-4">
+        <div className="card mb-4 bg-dark text-white rounded" >
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <div className="card-img-top" style={{ backgroundColor: '#000',  overflow: 'hidden' }}>
+              <img src={imgUrl} alt="Accomplishment" style={{ width: '100%' }} />
+            </div>
+          </a>
+        </div>
       </div>
-    </div>
-  );
-};
+    );
+  };
+  
