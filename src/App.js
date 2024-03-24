@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from "./components/NavBar";
@@ -13,9 +13,10 @@ function App() {
     <div className="App">
       <NavBar />
       <Banner />
-      <Skills />
+      <Skills/>
       <Projects />
       <Footer />
+      
     </div>
   );
 }
