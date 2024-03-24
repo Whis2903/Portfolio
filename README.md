@@ -1,36 +1,30 @@
-# Personal Portfolio Website in React
+# Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a portfolio website built with Next.js and Tailwind CSS. It showcases your skills, projects, and achievements in an elegant and responsive design.
 
-<img width="1266" alt="Screen Shot 2022-06-19 at 2 18 18 PM" src="https://user-images.githubusercontent.com/50160672/174933373-1ba6cadf-1c9a-48c3-aa58-984d0bd62d82.png">
+## Installation
 
-Built using:
+1. Clone the repository: `git clone https://github.com/judygab/nextjs-portfolio.git`
+2. Navigate to the project directory: `cd portfolio-website`
+3. Install the dependencies: `npm install`
 
-- Front-end library: React
-- CSS framework: React-bootstrap
-- CSS animations library: Animate.css
+## Usage
 
-In the /personal-portfolio, you can run:
+1. Start the development server: `npm run dev`
+2. Open your browser and visit `http://localhost:3000` to view the website.
 
-### `npm start`
+## Dependencies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The following dependencies are required for this project:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Next.js: A React framework for server-side rendering and static site generation.
+- Tailwind CSS: A highly customizable CSS framework.
+- React: A JavaScript library for building user interfaces.
+- React Icons: A collection of popular icons for React projects.
+- TypeScript: A typed superset of JavaScript that compiles to plain JavaScript.
+- Resend: Resend is the email API for developers.
 
-### `npm test`
+## License
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute the code as per the terms of the license.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
