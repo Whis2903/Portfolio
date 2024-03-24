@@ -1,5 +1,8 @@
 import React from 'react';
-import techtrek from '../assets/img/events/techtrek.png'; // Import sample image for accomplishment
+import techtrek from '../assets/img/events/techtrek.png';
+import Innofusion from '../assets/img/events/Innofusion.jpg'; 
+import Aicte from '../assets/img/events/aicte.png';
+import ML from '../assets/img/events/aws1.png';
 
 export const Accomplishments = () => {
   return (
@@ -11,13 +14,13 @@ export const Accomplishments = () => {
             imgUrl={techtrek}
           />
           <AccomplishmentCard
-            imgUrl={techtrek}
+            imgUrl={Innofusion}
           />
           <AccomplishmentCard
-            imgUrl={techtrek}
+            imgUrl={Aicte}
           />
           <AccomplishmentCard
-            imgUrl={techtrek}
+            imgUrl={ML}
           />
           <AccomplishmentCard
             imgUrl={techtrek}
