@@ -313,7 +313,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #000; /* Change text color to black on hover */
   border-color: #007bff;
 }
-
+ 
 
 @keyframes updown {
     0% {
@@ -516,3 +516,31 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+/*******Accomplishments*****/
+.card {
+  background-color: #000;
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.list-group-item {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
