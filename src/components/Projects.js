@@ -1,3 +1,4 @@
+import React from 'react';
 import { Container, Row, Col, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
@@ -87,8 +88,10 @@ export const Projects = () => {
             </TrackVisibility>
           </Col>
         </Row>
+        <hr style={{ borderTop: '1px solid #fff', margin: '50px 0', width: '50%', marginLeft: 'auto', marginRight: 'auto' }} />
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      
+      
     </section>
   )
 }

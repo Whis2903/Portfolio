@@ -231,6 +231,56 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
 
+
+.custom-contact {
+  background-color: var(--primary-color);
+  padding: 0px 10px 0px 10px;
+  border-radius: 22px;
+}
+.custom-contact > .nav-link,
+.custom-contact > .nav-link:hover {
+  color: var(--accent-color);
+}
+
+.navbar-collapse {
+  text-align: center;
+  border-radius: 0px 0px 22px 22px;
+}
+
+.modal-content {
+  background-color: var(--primary-color) !important;
+  color: var(--accent-color);
+  border-radius: 22px;
+}
+.modal-header {
+  border-bottom: none;
+}
+input,
+textarea {
+  background-color: #343434 !important;
+  color: var(--accent-color) !important;
+}
+.submit-button {
+  margin: 20px 0px 0px 0px;
+  background: var(--secondary-color);
+  color: var(--accent-color);
+  font-weight: bold;
+}
+.submit-button:hover {
+  background: transparent;
+  border: 2px solid var(--secondary-color);
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
 /************ Banner Css ************/
 .banner {
   margin-top: 0;

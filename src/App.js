@@ -7,6 +7,8 @@ import { Accomplishments } from "./components/Accomplishments"; // Import the Ac
 import { Projects } from "./components/Projects";
 import { Footer } from "./components/Footer";
 
+import Contact from './components/Contact';
+
 function App() {
   return (
     <div className="App">
@@ -15,6 +17,8 @@ function App() {
       <Skills/> 
       <Accomplishments/>{/* Add the Accomplishments component */}
       <Projects />
+
+      <Contact/>
       <Footer />
     </div>
   );
