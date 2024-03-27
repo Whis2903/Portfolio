@@ -14,7 +14,7 @@ function Contact() {
 
           <div className="text-left">
             <h2 className="mb-3" style={{ fontFamily: 'Arial, sans-serif', fontWeight: 'bold', fontSize: '1.8rem', letterSpacing: '1px', color: '#fff', textShadow: '1px 1px 2px rgba(0, 0, 0, 0.8)' }}>Contact Information:</h2>
-            <p className="mb-2" style={{ fontSize: '1.2rem', color: '#ccc', textShadow: '1px 1px 2px rgba(0, 0, 0, 0.5)' }}>Email: <a href="mailto:vishalmadridrox@example.com" style={{ color: '#fff', textDecoration: 'none', borderBottom: '1px dashed #fff' }}>vishalmadridrox@example.com</a></p>
+            <p className="mb-2" style={{ fontSize: '1.2rem', color: '#ccc', textShadow: '1px 1px 2px rgba(0, 0, 0, 0.5)' }}>Email: <a href="mailto:vishalmadridrox@example.com" style={{ color: '#fff', textDecoration: 'none', borderBottom: '1px dashed #fff' }}>vishalmadridrox@gmail.com</a></p>
             <p style={{ fontSize: '1.2rem', color: '#ccc', textShadow: '1px 1px 2px rgba(0, 0, 0, 0.5)' }}>Phone: <span style={{ color: '#fff', borderBottom: '1px dashed #fff' }}>9818793755</span></p>
           </div>
         </div>
